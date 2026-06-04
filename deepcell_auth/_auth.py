@@ -9,6 +9,8 @@ import logging
 import tarfile
 import zipfile
 
+__all__ = ["fetch_data", "extract_archive"]
+
 
 _api_endpoint = "https://users.deepcell.org/api/getData/"
 _asset_location = Path.home() / ".deepcell"
